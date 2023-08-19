@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _strdup - duplicates a str in the heap memory.
- * @s: Type char pointer str
+ * _strdup - duplicates  heap memory.
+ * @s: Type char  str
  * Return: duplicated str
  */
 char *_strdup(const char *s)
@@ -19,9 +19,9 @@ char *_strdup(const char *s)
 }
 
 /**
- * _strlen - Returns the lenght of a string.
+ * _strlen -  the lenght of a string.
  * @s: Type char pointer
- * Return: Always 0.
+ * Return:  0.
  */
 int _strlen(const char *s)
 {
