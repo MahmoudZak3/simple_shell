@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * without_comment - deletes comments from the input
- *
- * @in: input string
+ * without_comment - deletes comments
+ * @in: string
  * Return: input without comments
  */
 char *without_comment(char *in)
@@ -38,8 +37,7 @@ char *without_comment(char *in)
 /**
  * shell_loop - Loop of shell
  * @datash: data relevant (av, input, args)
- *
- * Return: no return.
+ * Return:  return 0
  */
 void shell_loop(data_shell *datash)
 {
