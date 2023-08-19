@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * aux_help_env - Help information for the builtin env
- * Return: no return
+ * aux_help_env - information for the builtin env
+ *
+ * Return: return
  */
 void aux_help_env(void)
 {
@@ -14,8 +15,8 @@ void aux_help_env(void)
 
 }
 /**
- * aux_help_setenv - Help information for the builtin setenv
- * Return: no return
+ * aux_help_setenv -information for the builtin setenv
+ * Return: return
  */
 void aux_help_setenv(void)
 {
@@ -29,8 +30,8 @@ void aux_help_setenv(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aux_help_unsetenv - Help information for the builtin unsetenv
- * Return: no return
+ * aux_help_unsetenv -  information for the builtin unsetenv
+ * Return: return
  */
 void aux_help_unsetenv(void)
 {
