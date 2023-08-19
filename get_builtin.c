@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * get_builtin - builtin that pais the command in the arg
+ * get_builtin -  pais the command in arg
  * @cmd: command
- * Return: function pointer of the builtin command
+ * Return:  pointer of builtin command
  */
 int (*get_builtin(char *cmd))(data_shell *)
 {
