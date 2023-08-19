@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
- * strcat_cd - function that concatenates the message for cd error
- *
- * @datash: data relevant (directory)
- * @msg: message to print
- * @error: output message
+ * strcat_cd - function the message for cd error
+ * @datash: datfa relevant (directory)
+ * @msg: messerage to print
+ * @error: oudfput message
  * @ver_str: counter lines
  * Return: error message
  */
@@ -39,9 +38,9 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_get_cd - error message for cd command in get_cd
- * @datash: data relevant (directory)
- * Return: Error message
+ * error_get_cd - message for cd command in get_cd
+ * @datash: data  (directory)
+ * Return: Err message
  */
 char *error_get_cd(data_shell *datash)
 {
