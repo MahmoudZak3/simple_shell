@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- * read_line - reads the input string.
- *
- * @i_eof: return value of getline function
- * Return: input string
+ * read_line -  input string.
+ * @i_eof:  value of getline function
+ * Return: input
  */
 char *read_line(int *i_eof)
 {
