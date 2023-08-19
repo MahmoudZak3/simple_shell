@@ -1,8 +1,7 @@
 #include "holberton.h"
 
 /**
- * cd_shell - changes current directory
- *
+ * cd_shell - changes directory
  * @datash: data relevant
  * Return: 1 on success
  */
