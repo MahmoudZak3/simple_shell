@@ -1,1 +1,1 @@
-# simple_shell
+A group project on simple shell
