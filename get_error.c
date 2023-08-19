@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * get_error - calls the error according the builtin, syntax or permission
+ * get_error - calls error according to the builtin, permission
  * @datash: data structure that contains arguments
- * @eval: error value
+ * @eval:  value
  * Return: error
  */
 int get_error(data_shell *datash, int eval)
