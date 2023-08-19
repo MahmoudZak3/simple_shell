@@ -19,7 +19,6 @@
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
 
-
 /**
  * struct data - struct that contains all relevant data on runtime
  * @av: argument vector
@@ -45,7 +44,7 @@ typedef struct data
  * struct sep_list_s - single linked list
  * @separator: ; | &
  * @next: next node
- * Description: single linked list to store separators
+ * Description: single linked list
  */
 typedef struct sep_list_s
 {
@@ -68,8 +67,8 @@ typedef struct line_list_s
 /**
  * struct r_var_list - single linked list
  * @len_var: length of the variable
- * @val: value of the variable
- * @len_val: length of the value
+ * @val:variable
+ * @len_val: length  value
  * @next: next node
  * Description: single linked list to store variables
  */
@@ -207,7 +206,6 @@ char *error_env(data_shell *datash);
 char *error_syntax(char **args);
 char *error_permission(char **args);
 char *error_path_126(data_shell *datash);
-
 
 /* get_error.c */
 int get_error(data_shell *datash, int eval);
