@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * cmp_env_name - compares env variables names
- * with the name passed.
- * @nenv: name of the environment variable
+ * cmp_env_name - compares variables names with name passed.
+ * @nenv: name of  variable
  * @name: name passed
  *
  * Return: 0 if are not equal. Another value if they are.
