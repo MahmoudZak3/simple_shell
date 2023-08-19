@@ -1,12 +1,11 @@
 #include "holberton.h"
 
 /**
- * check_env - checks if the typed variable is an env variable
- *
- * @h: head of linked list
- * @in: input string
- * @data: data structure
- * Return: no return
+ * check_env - checksvariable is an env
+ * @h: linked list
+ * @in: input
+ * @data: data
+ * Return:  return 0
  */
 void check_env(r_var **h, char *in, data_shell *data)
 {
